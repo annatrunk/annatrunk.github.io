@@ -1,0 +1,261 @@
+body {
+    background: white;
+    font-family: arial black, serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 10pt;
+    cursor: url(img/red.png), auto;
+}
+
+a {
+  text-decoration: none;
+  cursor: url(img/red.png), auto;
+}
+
+.main{
+  margin-top: 56px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/*Projekte*/
+
+.thumbnail{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.thumbnail img{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  float: middle;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(255,255,255,1);
+  font-size: 15pt;
+  color: black;
+  opacity: 1;
+  transition: opacity 0.1s; 
+}
+
+.titel{
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.untertitel{
+  font-family: arial;
+  font-size: 10pt;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.overlay:hover{
+  opacity: 0;
+}
+
+
+
+/*Über mich*/
+
+.col-3 {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+.col-3 img{
+  width: 100%;
+}
+
+.col-4 {
+  width: 50%;
+  float: left;
+}
+
+.col-4 a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.bio {
+  font-family: arial;
+  color: black;
+  line-height: 1.5;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+a.contact {
+  float: right;
+}
+
+a.contact:hover {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  transition: filter 0.1s;
+}
+
+
+
+/*Navigation*/
+
+.nav {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+}
+
+.col-1 {
+  width: 50%;
+  float: left;
+  padding-left: 15px;
+}
+
+.col-2 {
+  width: 50%;
+  float: left;
+  padding-right: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+a.link {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+a.activelink {
+  color: white;
+}
+
+a.righttop {
+  float: right;
+}
+
+a:hover {
+  color: white;
+}
+
+@media only screen and (min-width: 769px) {
+  div.nav {
+    font-size: 30pt;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+  div.nav {
+    font-size: 15pt;
+  }
+  a.righttop {
+    float: left;
+  }
+  .col-1 {
+    padding-left: 5px;
+  }
+  .col-2 {
+    padding-left: 5px;
+  }
+  .bio {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .titel{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .untertitel{
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+
+/*Corona-Projekt*/
+
+.col-1-3 {
+  width: 33.33%;
+  float: left;
+}
+
+.col-1-3 img{
+  width: 100%;
+}
+
+.col-2-3 {
+  width: 33.33%;
+  float: left;
+}
+
+.col-2-3 img{
+  width: 100%;
+}
+
+.col-3-3 {
+  width: 33.33%;
+  float: left;
+}
+
+.col-3-3 img{
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+
+/*Skizzenbuch-Projekt*/
+
+.col-1-2 {
+  width: 50%;
+  float: left;
+}
+
+.col-1-2 img{
+  width: 100%;
+}
+
+.col-2-2 {
+  width: 50%;
+  float: left;
+}
+
+.col-2-2 img{
+  width: 100%;
+}

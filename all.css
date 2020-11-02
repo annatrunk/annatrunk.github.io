@@ -1,6 +1,6 @@
 body {
     background: white;
-    font-family: 'arial black', arial black, arial bold, arial, helvetica, gadget, sans-serif;
+    font-family: 'arial black', arial black, arial bold, gadget, arial, helvetica, sans-serif;
     color: black;
     margin: 0;
     padding: 0;
@@ -61,7 +61,7 @@ a {
 }
 
 .untertitel{
-  font-family: 'arial narrow', arial;
+  font-family: 'arial narrow', arial narrow, arial light, arial, helvetica, sans-serif;
   font-size: 10pt;
   padding-right: 15px;
   padding-left: 15px;
@@ -98,7 +98,7 @@ a {
 }
 
 .bio {
-  font-family: 'arial narrow', arial;
+  font-family: 'arial narrow', arial narrow, arial light, arial, helvetica, sans-serif;
   color: black;
   line-height: 1.5;
   padding-right: 15px;

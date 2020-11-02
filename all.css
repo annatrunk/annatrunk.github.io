@@ -1,7 +1,6 @@
 body {
     background: white;
     font-family: 'arial black', arial black, arial bold, arial, helvetica, gadget, sans-serif;
-    font-weight: bold, bolder;
     color: black;
     margin: 0;
     padding: 0;
@@ -63,7 +62,6 @@ a {
 
 .untertitel{
   font-family: 'arial light', arial;
-  font-weight: thin, lighter;
   font-size: 10pt;
   padding-right: 15px;
   padding-left: 15px;
@@ -101,7 +99,6 @@ a {
 
 .bio {
   font-family: 'arial light', arial;
-  font-weight: thin, lighter;
   color: black;
   line-height: 1.5;
   padding-right: 15px;

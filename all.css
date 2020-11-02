@@ -61,7 +61,8 @@ a {
 }
 
 .untertitel{
-  font-family: 'arial', arial;
+  font-family: 'arial light', arial;
+  font-weight: thin, lighter;
   font-size: 10pt;
   padding-right: 15px;
   padding-left: 15px;
@@ -98,7 +99,8 @@ a {
 }
 
 .bio {
-  font-family: 'arial', arial;
+  font-family: 'arial light', arial;
+  font-weight: thin, lighter;
   color: black;
   line-height: 1.5;
   padding-right: 15px;

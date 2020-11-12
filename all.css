@@ -109,6 +109,8 @@ a {
   font-weight: normal;
   color: black;
   line-height: 1.5;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 a.insta{

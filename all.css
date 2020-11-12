@@ -113,10 +113,14 @@ a {
 
 a.insta{
   float: left;
+  height: 50px;
+  width: 50px;
 }
 
 a.email{
   float: right;
+  height: 50px;
+  width: 75px;
 }
 
 a.contact:hover {

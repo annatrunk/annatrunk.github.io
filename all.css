@@ -83,7 +83,7 @@ a {
 }
 
 .col-3 {
-  width: 50%;
+  width: 66.67%;
   float: left;
   overflow: hidden;
 }
@@ -93,7 +93,7 @@ a {
 }
 
 .col-4 {
-  width: 50%;
+  width: 33.33%;
   float: left;
 }
 

@@ -83,14 +83,13 @@ a {
 }
 
 .col-3 {
-  width: 66.67%;
-  float: left;
+  width: 33.3%;
+  float: center;
   overflow: hidden;
 }
 
 .col-3 img{
-  width: 33.3%;
-  float: center;
+  width: 100%;
 }
 
 .col-4 {

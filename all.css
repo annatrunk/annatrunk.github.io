@@ -78,8 +78,10 @@ a {
 /*Über mich*/
 
 .circle {
+  width: 100%;
   position: relative;
   z-index: -1;
+  margin-top: 5px;
 }
 
 .col-3 {
@@ -90,7 +92,7 @@ a {
 }
 
 .col-3 img{
-  width: 100%;
+  
 }
 
 .col-4 {

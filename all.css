@@ -89,12 +89,12 @@ a {
 }
 
 .col-3 img{
-  width: 100%;
+  width: 33.3%;
+  float: center;
 }
 
 .col-4 {
-  width: 33.33%;
-  float: left;
+  
 }
 
 .col-4 a {

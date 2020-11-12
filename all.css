@@ -77,18 +77,12 @@ a {
 
 /*Über mich*/
 
-.circle {
-  width: 100%;
-  position: relative;
-  z-index: -1;
-  margin-top: 5px;
-}
-
 .col-3 {
   width: 33.3%;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
+  padding: 5px;
 }
 
 .col-3 img{
@@ -100,10 +94,14 @@ a {
 }
 
 .col-4 a {
-  float: left;
-  color: white;
-  text-decoration: none;
-  padding: 15px;
+  
+}
+
+.circle {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  margin-top: 5px;
 }
 
 .bio {
@@ -111,8 +109,6 @@ a {
   font-weight: normal;
   color: black;
   line-height: 1.5;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 a.insta{
